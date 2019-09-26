@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <title></title>
+  <style>
+    body {
+      font-family: monospace;
+    }
+
+    li {
+      padding: 1em;
+    }
+
+    #bier {
+      transition: font-size 0.5s; 
+      transition-delay: 0.5s;
+      color: white;
+      background-color: #a05000;
+      border: 1px solid black;
+    }
+    #bier:hover {
+      font-size: 5em;
+    }
+
+    #cola {
+      background-color: brown;
+      color: white;
+      transition: letter-spacing 2s;
+    }
+    #cola:hover {
+      letter-spacing: 2em;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    #wein {
+      transition: color 2s, background-color 2s;
+    }
+    #wein:hover {
+      color: white;
+      background-color: red;
+    }
+
+    #saft {
+      transition: font-size 5s;
+      transition-timing-function: ease-in-out;
+    }
+    #saft:hover {
+      text-align: center;
+      font-size: 10em;
+    }
+
+    #cocktail {
+      font-size: 2em;
+      font-weight: bold;
+      transition: text-shadow 2s;
+    }
+    #cocktail:hover {
+      text-shadow: 5px 5px darkgrey;
+    }
+
+
+    #motor {
+      text-decoration: underline;
+    }
+    #motor:hover {
+      box-shadow: 10px 10px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <h1>Getränke</h1>
+  <ul>
+    <li id=bier>Bier</li>
+    <li id=cola>Cola</li>
+    <li id=wein>Wein</li>
+    <li id=saft>Saft</li>
+    <li id=cocktail>Cocktail</li>
+    <li id=motor>Motoröl</li>
+  </ul>
+
+
+</body>
+
+</html>
