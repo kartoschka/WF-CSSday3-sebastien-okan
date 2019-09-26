@@ -1,0 +1,12 @@
+:root {
+  --dark: #000000;
+  --neutral: #ffaaff;
+}
+
+main {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: transpose(-50%,-50%);
+  background: var(--neutral);
+}
