@@ -4,7 +4,13 @@
   <meta charset='utf-8'>
   <title></title>
   <style>
-    h1,h4,h5 { text-transform: capitalize; }
+    h1,h4,.headcel,.primarycel,.sndarycel { text-transform: capitalize; }
+    .valcel:after {
+      content: '%';
+    }
+    .primarycel {
+      font-weight: bold;
+    }
 
   </style>
 </head>
@@ -14,27 +20,65 @@
   <h4>serving size 1 cup (50g)</h4>
   <h4>servings per container</h4>
 
-  <div class=headcel>amount per serving</div>
-  <div class=headcel>Cereal</div>
-  <div class=headcel>with 1/2 cup 1% milk</div>
+  <div class=row>
+    <div class=headcel>amount per serving</div>
+    <div class=headcel>Cereal</div>
+    <div class=headcel>with 1/2 cup 1% milk</div>
+  </div>
 
-  <div class=primarycel>total fat 4g*</div>
-  <div class=valcel>6</div>
-  <div class=valcel>8</div>
+  <div class=row>
+    <div class=primarycel>total fat 4g*</div>
+    <div class=valcel>6</div>
+    <div class=valcel>8</div>
+  </div>
 
-  <div class=sndarycel>dietary fiber 6g</div>
-  <div class=valcel>8</div>
-  <div class=valcel>13</div>
+  <div class=row>
+    <div class=sndarycel>saturated fat 1.5g</div>
+    <div class=valcel>8</div>
+    <div class=valcel>13</div>
+  </div>
 
-  <div class=sndarycel>sugars 11g</div>
-  <div class=valcel>8</div>
-  <div class=valcel>8</div>
+  <div class=row>
+    <div class=sndarycel>trans fat 0g</div>
+    <div class=valcel></div>
+    <div class=valcel></div>
+  </div>
 
-  <div class=primarycel>cholesterol 0mg</div>
-  <div class=valcel>0</div>
-  <div class=valcel>3</div>
+  <div class=row>
+    <div class=primarycel>cholesterol 0mg</div>
+    <div class=valcel>0</div>
+    <div class=valcel>3</div>
+  </div>
 
+  <div class=row>
+    <div class=primarycel>sodium 190mg</div>
+    <div class=valcel>8</div>
+    <div class=valcel>11</div>
+  </div>
 
+  <div class=row>
+    <div class=primarycel>total carbohydrate 39g</div>
+    <div class=valcel>13</div>
+    <div class=valcel>15</div>
+  </div>
+
+  <div class=row>
+    <div class=sndarycel>dietary fiber 6g</div>
+    <div class=valcel>24</div>
+    <div class=valcel>24</div>
+  </div>
+
+  <div class=row>
+    <div class=sndarycel>sugars 11g</div>
+    <div class=valcel></div>
+    <div class=valcel></div>
+  </div>
+
+  <div class=row>
+    <div class=primarycel>protein 4g</div>
+    <div class=valcel></div>
+    <div class=valcel></div>
+  </div>
 
 </body>
 </html>
