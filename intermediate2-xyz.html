@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <title></title>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+     
+    h1,h4,.headcel,.primarycel,.sndarycel { text-transform: capitalize; }
+
+    .primarycel {
+      font-weight: bold;
+    }
+
+    .sndarycel {
+      text-indent: 5em;
+    }
+
+    .valcel:after {
+      content: '%';
+    }
+ 
+    .table { 
+      display: table;
+      border-collapse: collapse;
+      border-spacing: 0.5em;
+    }
+    .row, .primaryrow {
+      display: table-row;
+    }
+    .headcel,.primarycel,.sndarycel,.valcel {
+      display: table-cell;
+    }
+
+    .primaryrow {
+      border-top: 1px solid black;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>nutrition facts</h1>
+  <h4>serving size 1 cup (50g)</h4>
+  <h4>servings per container</h4>
+
+  <div class=table>
+    <div class=row>
+      <div class=headcel>amount per serving</div>
+      <div class=headcel>Cereal</div>
+      <div class=headcel>with 1/2 cup 1% milk</div>
+    </div>
+
+    <div class=primaryrow>
+      <div class=primarycel>total fat 4g*</div>
+      <div class=valcel>6</div>
+      <div class=valcel>8</div>
+    </div>
+
+    <div class=row>
+      <div class=sndarycel>saturated fat 1.5g</div>
+      <div class=valcel>8</div>
+      <div class=valcel>13</div>
+    </div>
+
+    <div class=row>
+      <div class=sndarycel>trans fat 0g</div>
+    </div>
+
+    <div class=row>
+      <div class=primarycel>cholesterol 0mg</div>
+      <div class=valcel>0</div>
+      <div class=valcel>3</div>
+    </div>
+
+    <div class=row>
+      <div class=primarycel>sodium 190mg</div>
+      <div class=valcel>8</div>
+      <div class=valcel>11</div>
+    </div>
+
+    <div class=row>
+      <div class=primarycel>total carbohydrate 39g</div>
+      <div class=valcel>13</div>
+      <div class=valcel>15</div>
+    </div>
+
+    <div class=row>
+      <div class=sndarycel>dietary fiber 6g</div>
+      <div class=valcel>24</div>
+      <div class=valcel>24</div>
+    </div>
+
+    <div class=row>
+      <div class=sndarycel>sugars 11g</div>
+    </div>
+
+    <div class=row>
+      <div class=primarycel>protein 4g</div>
+    </div>
+  </div>
+
+</body>
+</html>
+
+
