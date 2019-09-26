@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <title></title>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+    main {
+      display: inline-block;
+      padding: 0.4em;
+      border: 0.1em solid black;
+    }
+
+    div {
+      padding-top: 0.1em;
+      padding-bottom: 0.1em;
+    }
+     
+    h1,h4,.headcel,.primarycel,.sndarycel { text-transform: capitalize; }
+    h1 {
+      margin-top: 0px;
+    }
+    h4 { 
+      font-weight: normal; 
+      margin: 0px;
+    }
+
+    .primarycel,.sndarycel {
+      flex: 10; 
+    }
+
+    .primarycel,.headcel {
+      font-weight: bold;
+    }
+
+    .headcel {
+      font-size: smaller;
+    }
+
+    .sndarycel {
+    }
+    
+    .percel,.valcel {
+      text-align: right;
+      flex: 3;
+    }
+    .percel:after {
+      content: '%';
+    }
+ 
+    .headrow, .sndaryrow, .primaryrow {
+      display: flex;
+    }
+    .headrow {
+      align-items: flex-end;
+      border-top: 0.5em solid black;
+    }
+    .primaryrow {
+      border-top: 0.1em solid black;
+    }
+
+    .sndaryrow {
+      margin-left: 2em;
+      border-top: 0.1em solid black;
+    }
+
+  </style>
+</head>
+<body>
+
+  <main>
+    <h1>nutrition facts</h1>
+    <h4>serving size 1 cup (50g)</h4>
+    <h4>servings per container</h4>
+
+    <div class=headrow>
+      <div class=headcel style=flex:10>amount per serving</div>
+      <div class=headcel style=text-align:right;flex:3>Cereal</div>
+      <div class=headcel style=text-align:right;flex:3>with 1/2 cup 1% milk</div>
+    </div>
+
+    <div class=primaryrow>
+      <div class=primarycel>calories</div>
+      <div class=valcel>190</div>
+      <div class=valcel>250</div>
+    </div>
+    <div class=sndaryrow>
+      <div class=sndarycel>calories from fat</div>
+      <div class=percel>35</div>
+      <div class=percel>45</div>
+    </div>
+
+    <div class=primaryrow>
+      <div class=primarycel>total fat 4g*</div>
+      <div class=percel>6</div>
+      <div class=percel>8</div>
+    </div>
+
+    <div class=sndaryrow>
+      <div class=sndarycel>saturated fat 1.5g</div>
+      <div class=percel>8</div>
+      <div class=percel>13</div>
+    </div>
+
+    <div class=sndaryrow>
+      <div class=sndarycel>trans fat 0g</div>
+    </div>
+
+    <div class=primaryrow>
+      <div class=primarycel>cholesterol 0mg</div>
+      <div class=percel>0</div>
+      <div class=percel>3</div>
+    </div>
+
+    <div class=primaryrow>
+      <div class=primarycel>sodium 190mg</div>
+      <div class=percel>8</div>
+      <div class=percel>11</div>
+    </div>
+
+    <div class=primaryrow>
+      <div class=primarycel>total carbohydrate 39g</div>
+      <div class=percel>13</div>
+      <div class=percel>15</div>
+    </div>
+
+    <div class=sndaryrow>
+      <div class=sndarycel>dietary fiber 6g</div>
+      <div class=percel>24</div>
+      <div class=percel>24</div>
+    </div>
+
+    <div class=sndaryrow>
+      <div class=sndarycel>sugars 11g</div>
+    </div>
+
+    <div class=primaryrow>
+      <div class=primarycel>protein 4g</div>
+    </div>
+  </main>
+</body>
+</html>
+
+
